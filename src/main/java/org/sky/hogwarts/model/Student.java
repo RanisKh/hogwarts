@@ -16,8 +16,6 @@ public class Student {
     private Long id;
 
 
-    @ManyToOne
-    @JoinColumn(name = "student_id")
     public Student(String name, int age, Long id) {
         this.name = name;
         this.age = age;
